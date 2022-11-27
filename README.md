@@ -4,6 +4,7 @@ Supplementary Information 1. Information on sequence data, scripts, etc.
 1.1	Resources
 There is a GitHub repository with all metabarcoding sequence data from Biowide. The file used in this study is bw_tar_seqtab.nochim_Both.rds
 GitHub: https://github.com/tobiasgf/sample_storage/tree/main/asv_tables_referencedata 
+
 The associated environmental data from all 130 sampling sites are available for download here: https://ecos.au.dk/forskningraadgivning/temasider/data 
 
 1.2	Reproducing the analyses 
