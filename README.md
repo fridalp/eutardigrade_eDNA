@@ -1,5 +1,6 @@
 # eutardigrade_eDNA
-Supplementary Information 1. Information on sequence data, scripts, etc.
+Supplementary Information 1. for the paper "Environmental DNA metabarcoding of Danish soil samples reveals new insight into the hidden diversity of eutardigrades in Denmark"
+
 
 1.1	Resources
 
