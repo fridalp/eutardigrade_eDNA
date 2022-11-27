@@ -2,8 +2,11 @@
 This repository contains all data and scripts necessary to run the analyses and produce the figures from the study Environmental DNA metabarcoding of Danish soil samples reveals new insight into the hidden diversity of eutardigrades in Denmark.
 
 **Bioinformatic tools:**
+
 VSEARCH v.2.9 (or later) (https://github.com/torognes/vsearch)
+
 IQ-tree v.1.6.12  (http://www.iqtree.org/)
+
 APPLES-2 v.2.0.9 (https://github.com/navidh86/apples)
 
 
