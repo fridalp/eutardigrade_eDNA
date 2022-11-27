@@ -1,5 +1,10 @@
 # eutardigrade_eDNA
-Supplementary Information 1. for the paper "Environmental DNA metabarcoding of Danish soil samples reveals new insight into the hidden diversity of eutardigrades in Denmark"
+This repository contains all data and scripts necessary to run the analyses and produce the figures from the study Environmental DNA metabarcoding of Danish soil samples reveals new insight into the hidden diversity of eutardigrades in Denmark.
+
+**Bioinformatic tools:**
+VSEARCH v.2.9 (or later) (https://github.com/torognes/vsearch)
+IQ-tree v.1.6.12  (http://www.iqtree.org/)
+APPLES-2 v.2.0.9 (https://github.com/navidh86/apples)
 
 
 **1.1	Resources**
@@ -9,6 +14,7 @@ There is a GitHub repository with all metabarcoding sequence data from Biowide. 
 GitHub: https://github.com/tobiasgf/sample_storage/tree/main/asv_tables_referencedata 
 
 The associated environmental data from all 130 sampling sites are available for download here: https://ecos.au.dk/forskningraadgivning/temasider/data 
+
 
 **1.2	Reproducing the analyses**
 
