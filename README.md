@@ -38,6 +38,8 @@ MOTU-IDs are based on the numbering given in the file full_biowide_tardigrade_fi
 
 **1.4	Reference data** 
 
+The first reference database used in the script filtering_of_sequences.r contains 368 sequences. 
+
 The alignment containing the 313 selected reference sequences from Genbank are provided in fasta-format in the file dataref_MSA.fasta (using MAFFT with the G-INS-i algorithm (% mafft, reorder, maxiterate 2, retree 1, globalpair input)
 
 The alignment containing both the 313 reference sequences and the 96 MOTUs are provided in fasta-format in the file dataquery_MSA.fasta (using MAFFT (% mafft -inputorder –keeplength --addfragments fragments --auto input).
@@ -48,7 +50,9 @@ The alignment containing both the 313 reference sequences and the 96 MOTUs are p
 Maximum Likelihood of dataref_MSA.fasta performed in IQ-TREE version 1.6.12 (Nguyen et al., 2015), with the GTR+F+I+G4 as substitution model and branch support calculated with 1000 SH-aLRT (Guindon et al., 2010) and 1000 Ultrafast (UF) bootstrap replicates (Hoang et al., 2018). 
 The resulting backbone tree is available in both treefile (backbone.treefile) and contree-format (backbone.contree).
 
-In the tree-based approach, problematic MOTUs (#012, #015, #033, #050, #053, #068, #112, #102) were removed from the alignment prior to phylogenetic reconstruction. backbone.contree was used as consensus-tree, and branch support was calculated with 10.000 Ultrafast bootstrap replicates. 
+In the tree-based approach, problematic MOTUs (#012, #015, #033, #050, #053, #068, #112, #102) were removed from the alignment prior to phylogenetic reconstruction, because these caused severe topological disruptions (see the file treebased_w_all_MOTUs.treefile). 
+
+backbone.contree was used as consensus-tree, and branch support was calculated with 10.000 Ultrafast bootstrap replicates. 
 The resulting tree is available in treefile-format (treebased_results.treefile)
 
 In the phylogeny-based approach, APPLES-2 use FastTree version 2.1.11 to re-estimate branch lengths on the consensus backbone tree (backbone.contree). 
